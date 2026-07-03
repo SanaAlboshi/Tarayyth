@@ -1,41 +1,55 @@
-# Financial AI Analyzer
+# Tarayyth
 
-Financial AI Analyzer is a full-stack web application that helps users understand their financial health by analyzing their income, expenses, debts, and financial goals. The application calculates key financial metrics and leverages AI to generate personalized insights and recommendations for better financial decision-making.
+**Tarayyth** is an AI-powered personal finance platform that helps users understand and improve their financial well-being. The application analyzes income, expenses, debts, and financial goals to generate personalized financial insights and practical recommendations using artificial intelligence.
+
+Tarayyth empowers users to make smarter financial decisions by evaluating their financial health, identifying unnecessary spending, tracking savings, and providing actionable guidance to achieve long-term financial goals.
 
 ---
 
-## Features
+# Features
 
-- Analyze monthly financial status
-- Calculate key financial indicators
-- AI-powered financial insights
+- AI-powered financial analysis
 - Personalized financial recommendations
+- Monthly financial health assessment
 - Financial goal planning
-- Financial readiness evaluation
-- Responsive and user-friendly interface
+- Saving amount and saving rate calculation
+- Financial leakage detection
+- Financial readiness score evaluation
+- Modern and responsive user interface
 
 ---
 
-## Technologies Used
+# Financial Metrics
 
-### Frontend
+Tarayyth calculates several financial indicators, including:
 
-- **React** – Building dynamic and interactive user interfaces.
-- **TypeScript** – Improves code reliability through static typing.
-- **Tailwind CSS** – Utility-first CSS framework for responsive and modern UI.
-- **Vite** – Fast development server and optimized build tool.
+- **Saving Amount** – Remaining income after expenses and debts.
+- **Saving Rate** – Percentage of income saved each month.
+- **Financial Leakage** – Identifies unnecessary spending habits.
+- **Financial Readiness Score** – Evaluates the user's overall financial health.
 
-### Backend
+---
 
-- **Node.js** – JavaScript runtime for server-side development.
-- **Express.js** – Lightweight framework for building REST APIs.
-- **TypeScript** – Enhances maintainability and scalability.
+# Technologies Used
 
-### AI Integration
+## Frontend
 
-- **Google Gemini API** – Generates personalized financial analysis and recommendations based on the user's financial information.
+- React
+- TypeScript
+- Tailwind CSS
+- Vite
 
-### Development Tools
+## Backend
+
+- Node.js
+- Express.js
+- TypeScript
+
+## AI
+
+- Google Gemini API
+
+## Development Tools
 
 - Git
 - GitHub
@@ -43,53 +57,50 @@ Financial AI Analyzer is a full-stack web application that helps users understan
 
 ---
 
-## System Architecture
+# System Architecture
 
 1. The user enters financial information such as income, expenses, debts, and financial goals.
-2. The frontend sends the data to the backend through a REST API.
-3. The backend calculates financial metrics, including:
-   - Saving Amount
-   - Saving Rate
-   - Financial Leakage
-   - Financial Readiness Score
-4. The calculated metrics are sent to the Google Gemini API.
-5. Gemini generates personalized financial insights and recommendations.
-6. The frontend displays the analysis in a clean and interactive dashboard.
+2. The frontend sends the data securely to the backend.
+3. The backend validates the data and calculates financial metrics.
+4. The calculated metrics are processed by Google Gemini AI.
+5. AI generates personalized financial insights and recommendations.
+6. The results are displayed through an intuitive and user-friendly interface.
 
 ---
 
-## Project Structure
+# Project Structure
 
 ```text
-financial-ai-analyzer/
+Tarayyth/
 ├── backend/
-└── frontend/
+├── frontend/
+└── README.md
 ```
 
 ---
 
-## Installation
+# Installation
 
-### Backend
+## Backend
 
 ```bash
 cd backend
 npm install
 ```
 
-Create a `.env` file inside the `backend` folder:
+Create a `.env` file:
 
 ```env
 GEMINI_API_KEY=your_api_key
 ```
 
-Start the backend server:
+Run the backend:
 
 ```bash
 npm run dev
 ```
 
-The backend runs on:
+Backend:
 
 ```
 http://localhost:4001
@@ -97,7 +108,7 @@ http://localhost:4001
 
 ---
 
-### Frontend
+## Frontend
 
 ```bash
 cd frontend
@@ -105,7 +116,7 @@ npm install
 npm run dev
 ```
 
-The frontend runs on:
+Frontend:
 
 ```
 http://localhost:5173
@@ -113,11 +124,11 @@ http://localhost:5173
 
 ---
 
-## API Endpoint
+# API
 
 ### POST `/api/analyze`
 
-### Example Request
+#### Example Request
 
 ```json
 {
@@ -132,7 +143,7 @@ http://localhost:5173
 }
 ```
 
-### Example Response
+#### Example Response
 
 ```json
 {
@@ -144,7 +155,10 @@ http://localhost:5173
   },
   "analysis": {
     "behaviorAnalysis": "...",
-    "recommendations": ["...", "..."],
+    "recommendations": [
+      "...",
+      "..."
+    ],
     "decision": "Proceed",
     "riskLevel": "Low"
   }
@@ -153,18 +167,45 @@ http://localhost:5173
 
 ---
 
-## Future Improvements
+# Project Goals
 
-- User authentication
-- Dashboard with financial charts
-- Expense categorization
-- Financial history tracking
-- Budget planning
-- Export reports
-- Multi-language support
+- Help users improve their financial awareness.
+- Encourage better spending habits.
+- Support long-term financial planning.
+- Deliver AI-powered financial guidance.
+- Simplify financial decision-making.
 
 ---
 
-## License
+# Future Improvements
 
-This project is intended for educational and portfolio purposes.
+- User authentication
+- Interactive financial dashboard
+- Expense categorization
+- Financial history tracking
+- Budget planning tools
+- Downloadable reports
+- Multi-language support
+- Bank account integration
+
+---
+
+# Screenshots
+
+### Home Page
+
+_Add a screenshot here._
+
+### Financial Analysis
+
+_Add a screenshot here._
+
+### AI Recommendations
+
+_Add a screenshot here._
+
+---
+
+# License
+
+This project was developed for educational and portfolio purposes.

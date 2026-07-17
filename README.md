@@ -13,7 +13,7 @@ Tarayyth empowers users to make smarter financial decisions by evaluating their 
 - Monthly financial health assessment
 - Financial goal planning
 - Saving amount and saving rate calculation
-- Financial leakage detection
+- Reducible spending detection (non-essential spending that can be redirected to goals)
 - Financial readiness score evaluation
 - Modern and responsive user interface
 

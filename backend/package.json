@@ -1,7 +1,7 @@
 {
-  "name": "financial-ai-analyzer-backend",
+  "name": "trayyath-backend",
   "version": "1.0.0",
-  "description": "Backend for Financial AI Analyzer hackathon MVP",
+  "description": "Trayyath backend — serving Individuals and Banks",
   "main": "dist/index.js",
   "type": "commonjs",
   "scripts": {
@@ -10,7 +10,7 @@
     "start": "node dist/index.js"
   },
   "dependencies": {
-    "@google/genai": "^0.14.0",
+    "@google/genai": "^2.11.0",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.21.1"
